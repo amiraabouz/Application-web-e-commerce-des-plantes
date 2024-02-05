@@ -1,0 +1,20 @@
+.lmj-banner {    
+    color: black;
+    /* font-family:'Poppins'; */
+    text-align: right;
+    padding: 32px;
+    border-bottom: solid 1.75px black;
+    display: flex;                    /* classe parent  */
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lmj-logo{
+    height: 45px; 
+    width: 45px;
+}
+.lmj-title{
+    padding-left: 32px;
+}
+

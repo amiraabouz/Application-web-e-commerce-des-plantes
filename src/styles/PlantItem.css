@@ -1,0 +1,61 @@
+.lmj-plant-item-cover {   /*pour l'image de la plante */
+	height: 250px;
+	width: 250px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.lmj-plant-item {
+	margin: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+	position: relative;
+}
+
+
+.lmj-plant-item-price {
+	position: absolute;
+	border-radius: 20px 20px 20px 0;
+	background-color: #31b472;
+	color: white;
+	padding: 15px;
+	right: 0;
+	top: 0;
+	font-weight: 500;
+}
+
+
+
+ a{
+    font-size: 14px;
+    font-family: "Open Sans";
+ 	color: rgb(245, 204, 153);
+    font-weight: bold;
+    line-height: 1.714;
+    text-align: left;
+  }
+
+  .infos{
+	  display: flex;
+	  justify-content: center;
+  }
+
+  .read{
+	  margin-left: 50px;
+  }
+
+  .icons{
+	display: flex;
+	justify-content: center;
+}
+
+
+.delete{
+	position: absolute;
+	left: 0px;
+    top: 7px;
+	color: white;
+}

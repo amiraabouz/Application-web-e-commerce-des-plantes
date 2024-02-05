@@ -1,0 +1,74 @@
+.name{
+font-size: 2.5rem;
+  color:#31b472;
+
+ /* margin-right: 80px; */
+}
+
+.cover-description{
+    display: flex;
+   align-items: center;
+   position: relative;
+   flex-direction: column;
+
+}
+
+.cover {   
+	height: auto;
+	width: 400px;
+	border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    /* margin-right: 70px; */
+    
+}
+
+.description{
+    font-size: 1.1rem;
+    font-family: 'Poppins';
+    line-height: 2.871;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-left: 20px; */
+    color: #48494a;
+
+}
+.titre-description{
+    line-height: 1.871;
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    color: #082465;
+    font-weight: bolder;
+    line-height: 0.9;
+
+}
+.card {
+
+    transition: all ease 0.5s;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 5px 0px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right:20px ;
+    
+  }
+.price{
+    position: absolute;
+    border-radius: 20px 20px 20px 0;
+    background-color: #31b472;
+    color: white;
+    padding: 15px;
+    top: 84px;
+ transform: translateX(175px);
+    font-weight: 500;
+}
+
+/* .water-light
+{ position: absolute;
+    top: 21px;
+    left: 1px;
+} */

@@ -1,0 +1,40 @@
+import Sun from '../assets/sun.svg'
+import Water from '../assets/water.svg'
+
+
+const quantityLabel = {
+	1: 'peu',
+	2: 'modérément',
+	3: 'beaucoup'
+}
+
+function CareScale({ scaleValue, careType }) {   // scaleValue est donné dans SDhopping list (plant.light ou plant.water)
+	const range = [1, 2, 3]
+	const scaleType = careType === 'light' ? (
+		<img src={Sun} alt='sun-icon' />
+	) : (
+		<img src={Water} alt='water-icon' />
+	) 
+
+	return (
+		<div
+		onClick={() =>
+			alert(
+				`Cette plante requiert ${quantityLabel[scaleValue]} ${
+					careType === 'light' ? 'de lumière' : "d'arrosage"
+				}`
+			)
+		}
+		>
+			{range.map((rangeElem) =>
+				scaleValue >= rangeElem ?      //condition à vérifier 
+                (
+					<span key={rangeElem.toString()}>{scaleType}</span>  // if yes key= le clé en chaine avec le scaleType (light/water)
+				) 
+                : null   // else null
+			)}
+		</div>
+	)
+}
+
+export default CareScale
