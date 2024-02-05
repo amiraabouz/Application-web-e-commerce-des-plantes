@@ -1,3 +1,5 @@
+Réalisation d'une application web e-commerce pour la vente des plantes.
+Outils: ReactJS, Bootstrap, jQuery, GitHub, Git, Microsoft Teams,Scrum.
 ![image](https://github.com/amiraabouz/Application-web-e-commerce-des-plantes/assets/154357531/de5ac076-1e4e-4235-bdb6-699cd7ba42b0)
 ![image](https://github.com/amiraabouz/Application-web-e-commerce-des-plantes/assets/154357531/989469e0-0647-4e40-b738-42a694d63121)
 ![image](https://github.com/amiraabouz/Application-web-e-commerce-des-plantes/assets/154357531/33227335-1733-475e-9655-af05c09e78a6)
